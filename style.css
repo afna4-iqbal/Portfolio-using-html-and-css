@@ -1,0 +1,138 @@
+
+.body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header { 
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 30px;
+    color: rgb(176, 44, 44);
+    cursor: default;
+}
+
+
+.navigation a {
+    font-size: large;
+    color: rgb(14, 14, 16);
+    text-decoration: none;
+    margin-right: 50px;
+    font-weight: 2500;
+    transition: .3s;
+}
+
+.navigation a:hover{
+    color: blue;
+}
+
+.home {
+    font-size: 40px;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFF22NAiz-5bpNtyCELDtDFILBZpMTKAcTNjhrnLmyh1RV_gLVktAStVWeeTH15a62PPc&usqp=CAU);
+    background-size: cover;
+    background-position: center;
+    display: flex; 
+    align-items: center;
+    padding: 30px 100px; 
+    
+    
+}
+#content{
+    max-width: 500px;
+    color: rgb(0, 0, 0);
+}
+
+#content span {
+    color:  rgb(176, 44, 44);
+}
+
+#content h4{
+    font-size: 35px;
+
+}
+#content p{
+    font-size: 17px;
+}
+
+.btn {
+
+    font-size: medium;
+}
+#skill{
+    /* position: relative; */
+    /* width: 100%; */
+    /* height: 10vh; */
+    /* background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFF22NAiz-5bpNtyCELDtDFILBZpMTKAcTNjhrnLmyh1RV_gLVktAStVWeeTH15a62PPc&usqp=CAU); */
+    /* background-size: cover; */
+    /* display: flex;  */
+    /* max-width: 5000px; */
+    color: rgb(164, 0, 0);
+    font-size: 50px;
+    margin-bottom: 350px;
+}
+#skill ol{
+    font-size: 25px;
+    width: 500px;
+    color: black;
+    
+}
+
+#project{
+text-indent: -550px;
+ margin-bottom: 400px;
+padding-top:  900px;
+align-items: right;
+
+}
+
+#project h2{
+    color: rgb(164, 0, 0);
+    font-size: 50px;
+}
+
+#project h3{
+    font-size: 30px;
+    color: black;
+    
+}
+p{
+    font-size: 20px;
+    padding-bottom: -10px;
+}
+
+#contact {
+    color: rgb(164, 0, 0);
+    margin-bottom: 44cm;
+    margin-left: 450px;
+}
+h2{
+    font-size: 45px;
+}
+ul{
+    font-size: 25px;
+    color: black;
+}
+
+#language{
+    color: rgb(164, 0, 0);
+    font-size: 50px;
+    margin-bottom: 400px;
+    text-indent: -350px;
+}
+    
